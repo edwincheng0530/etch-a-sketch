@@ -1,4 +1,4 @@
-html, body {
+html, body, .fakebody {
     height: 100%;
 }
 
@@ -6,6 +6,22 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
+}
+
+.etch {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dimension-tag {
+    display: flex;
+    gap: 10px;
+}
+
+#dimension-input {
+    width: 30px;
+    text-align: center;
 }
 
 .container {

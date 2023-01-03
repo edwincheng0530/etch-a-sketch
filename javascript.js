@@ -19,7 +19,6 @@ const squares = document.querySelectorAll('.column');
 squares.forEach(column => {
     column.addEventListener('mouseover', function() {
         column.classList.add('black');
-        console.log('hi:)');
     })
 });
 
