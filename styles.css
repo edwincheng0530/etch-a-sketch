@@ -1,17 +1,22 @@
 html, body, .fakebody {
     height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
     display:flex;
     align-items: center;
     justify-content: center;
+    background-color: lightgray;
 }
 
 .etch {
     display:flex;
     flex-direction: column;
     gap: 10px;
+    background: lightcoral;
+    padding: 15px 45px 30px 45px;
+    border-radius: 60px;
 }
 
 .edit-bar {
@@ -50,8 +55,7 @@ body {
 
 .container {
     display: flex;
-    padding: 15px;
-    background-color: gray;
+    background-color: lightgray;
 }
 
 .column {
@@ -63,4 +67,10 @@ body {
 
 .black {
     background-color: black;
+}
+
+#title {
+    text-align: center;
+    font-size: 36px;
+    color: white;
 }
