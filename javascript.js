@@ -22,3 +22,9 @@ squares.forEach(column => {
     })
 });
 
+
+const dimension = document.querySelector('#button');
+dimension.addEventListener('click', function() {
+    const user = document.querySelector('#dimension-input');
+    changeDimensions()
+});
