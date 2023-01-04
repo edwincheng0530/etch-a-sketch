@@ -51,6 +51,14 @@ body {
     border-width: 0.5px;
     padding: 10px;
     background-color: white;
+    height: 16px;
+    width: 16px;
+}
+
+.size {
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .black {

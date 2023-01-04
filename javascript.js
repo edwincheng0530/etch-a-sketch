@@ -22,9 +22,11 @@ squares.forEach(column => {
     })
 });
 
-
-const dimension = document.querySelector('#button');
-dimension.addEventListener('click', function() {
-    const user = document.querySelector('#dimension-input');
-    changeDimensions()
+const clear = document.querySelector('#clear');
+clear.addEventListener('click', function() {
+    squares.forEach(column => column.classList.remove('black'));
 });
+
+const small = document.querySelector('.small');
+const medium = document.querySelector('.medium');
+const large = document.querySelector('.large');
